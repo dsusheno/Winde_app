@@ -13,6 +13,7 @@ import NearScreen from '../screens/near';
 import ProfileScreen from '../screens/profile';
 import BaladeInfoScreen from '../screens/baladeInfoScreen';
 import CommentsScreen from '../screens/commentsScreen';
+import BaladeMapScreen from '../screens/baladeMapScreen';
 
 export const HomeTabs = TabNavigator({
     AllBalades: {
@@ -88,6 +89,9 @@ export const Root = StackNavigator({
     },
     BaladeTabs: {
         screen: BaladeTabs,
+    },
+    BaladeMap: {
+        screen: BaladeMapScreen,
     }
 },
 {

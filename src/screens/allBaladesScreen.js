@@ -8,7 +8,8 @@ import {
   View,
   PixelRatio,
   TouchableOpacity,
-  TouchableHighlight
+  TouchableHighlight,
+  NetInfo
 } from 'react-native';
 
 import { NavigationActions } from 'react-navigation';
@@ -90,23 +91,44 @@ class ListBalades extends Component {
 }
 
 class AllBaladesScreen extends Component {
+    constructor() {
+        super();
+
+        this.state = {connectionInfo: ''};
+        this.state = {buffer: ''};
+    }
+    connectivityChange = (connectionInfo) => {
+        this.setState({
+            connectionInfo,
+        });
+    }
     render() {
-        const query = gql`query Query {
-            allBalades {
-                id
-                title
-                image
-                location
-                rating
-                duration
-                description
-                tags
-            }
-        }`;
+        NetInfo.addEventListener('change', this.connectivityChange);
 
-        const ListAllBalades = graphql(query)(ListBalades);
+        if (!this.state.buffer && (this.state.connectionInfo == "MOBILE" || this.state.connectionInfo == "WIFI"))
+        {
+            const query = gql`query Query {
+                allBalades {
+                    id
+                    title
+                    image
+                    location
+                    rating
+                    duration
+                    description
+                    tags
+                }
+            }`;
 
-        return(<ListAllBalades navigation={this.props.navigation}/>)
+            const ListAllBalades = graphql(query)(ListBalades);
+            this.state.buffer = <ListAllBalades navigation={this.props.navigation}/>;
+            return(this.state.buffer);
+        }
+        else if (this.state.buffer)
+            return(this.state.buffer);
+        else
+            return(<View style={styles.noConnection}><Text>Please, check your Internet Connection</Text></View>);
+
     }
 }
 
@@ -116,6 +138,11 @@ const styles = StyleSheet.create({
         textAlign: 'left',
         color: '#FFFFFF'
     },
+    noConnection: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    }
 });
 
 export default AllBaladesScreen;

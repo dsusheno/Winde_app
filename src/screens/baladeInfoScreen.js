@@ -4,7 +4,8 @@ import {
   Text,
   View,
   Image,
-  PixelRatio
+  PixelRatio,
+  Button
 } from 'react-native';
 
 class BaladeInfoScreen extends Component {
@@ -23,6 +24,12 @@ class BaladeInfoScreen extends Component {
             style={{height: this.state.imageHeight}}
             />
             <Text style={{color: 'black'}}>{description}</Text>
+            <Button
+            onPress={() => this.props.navigation.navigate('BaladeMap', {...this.props.navigation.state.params})}
+            title="Learn More"
+            color="#841584"
+            accessibilityLabel="Learn more about this purple button"
+            />
             </View>
         )
     }
