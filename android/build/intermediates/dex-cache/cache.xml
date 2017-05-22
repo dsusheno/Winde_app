@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_fa5f1065c53da1bdb1c51bbe6cd5527dcba4aa2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/Winde/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b02fb3b9e4da928d34859c1a39d7ea9e8a96c63d">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/Winde-react-native-maps-unspecified_50062fe859d5e1740dd844baf2e64ddd3e455698.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_c68699d3fb353b8e597afa9f15618810457b515d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_13ee7dc492c3990aee363595c54b751b43fabe89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/Winde/react-native-share/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1ac1a52d84feee696d966c36344425e8fd9cd515">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/Winde-react-native-share-unspecified_ebd96eba712db0d1ebf234185d648b688f401b07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c458bb06adc2f7deb38cd21a867d7d6a5862c2ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_43cbfc190fb41ad5d7cff0877e7228ca57b92916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_2544833999ef5dc76a1bea4f5906a3fb23216211.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_4fa5385d4e5375aeea914454ed42891c8d37827b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_e11d9de4a95aeced70b41c5a3fa1616754bc6491.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_6ec647609c0b9591854daea382a1c9e069363b2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_70f2f0d6bea7422069d8b494eaae3188967e453f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_711c637bb773dadc36cf4104cf37f2d57074fe97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_96060a554b86c9873684b604755de3518f347eaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_7d7d7a94d090b5a7d21cc65be4e1ea834fc76964.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/Winde/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/Winde-react-native-vector-icons-unspecified_9fe5f1b9f61a6b2cca2b40be0e5f35ceb0368d7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_cfc5c57b82991000bf03c405ce16d19d65521585.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_0f80718d094ab83b4649dd4032e1a3c30eca48be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_97e3c41910495904dd70c6ab34d4e79d8d3770cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_92c0b640ebaf12119d95526b1b55342fe21935ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_519f641271544a99914925a1563a08d26e7809c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/me.relex/photodraweeview/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5ceac4d4c5f5559d813fb8e0419203a51b40462">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/me.relex-photodraweeview-1.0.0_479d51d144bb53a649fe1df1b9d6af289de822ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/Winde/react-native-linear-gradient/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b1de8f75805268154da5e88bb6195760b9d8966f">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/Winde-react-native-linear-gradient-unspecified_4fcbba59413a8880cdea314e747d41e8bcbb4e21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/Winde/react-native-photo-view/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cb214e35522fd765ba2b92aa20340f58cd0c5973">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/Winde-react-native-photo-view-unspecified_95d16dfb74a535de64ee1a6404499ac7ce1f0751.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_ec4b870374a046a1807aafebe3c14db9dcb45b19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.4/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_e650e146a2fd3fe2b74cef10123535358611c114.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.4_e18852397a8e7ef4e7db8111ad8399ac0d0b0b5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_f4e11efe32b7b020e3ef3f86d7a753b65fa28ca5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_ccca36b1babbc9f2811df0c0822fce9f57f5b278.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_8214e44111fbdff404c6ff92a44289f3f5a57128.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_ce67dff53d528458dc374e688d9f31167cc1a1d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_50f8070c7ba515ab622f8b57f8b6576b342d0ed9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nex/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/nex/Incubateur/winde_merge/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_a624349467beb3d3138b07e090fff6e4d37b046f.jar" />
+    </item>
+
+</items>

@@ -33,22 +33,22 @@ class ListBalades extends Component {
             <View>
              <TouchableHighlight onPress={() => this.props.navigation.navigate('BaladeTabs', {...balade})}>
               <Image
-              source={ {uri: balade.image} }
-              style={{height: this.state.imageHeight}}
+                source={ {uri: balade.image} }
+                style={{height: this.state.imageHeight}}
               >
-              <Title>{balade.title}</Title>
-              <View style={{alignItems:'flex-start'}}>
-              <Stars
-              value={balade.rating}
-              spacing={5}
-              count={5}
-              starSize={24}
-              backingColor='transparent'
-              fullStar={require('../img/icons/star_white.png')}
-              emptyStar={require('../img/icons/star_border_white.png')}
-              halfStar={require('../img/icons/star_half_white.png')}
-              />
-              </View>
+                <Title>{balade.title}</Title>
+                <View style={{alignItems:'flex-start'}}>
+                  <Stars
+                    value={balade.rating}
+                    spacing={5}
+                    count={5}
+                    starSize={24}
+                    backingColor='transparent'
+                    fullStar={require('../img/icons/star_white.png')}
+                    emptyStar={require('../img/icons/star_border_white.png')}
+                    halfStar={require('../img/icons/star_half_white.png')}
+                  />
+                </View>
               </Image>
               </TouchableHighlight>
               <View style={{height: 7}}></View>
@@ -117,6 +117,15 @@ class AllBaladesScreen extends Component {
                     duration
                     description
                     tags
+                    markers {
+                        title
+                        pictures
+                        description
+                        position {
+                          longitude
+                          latitude
+                        }
+                    }
                 }
             }`;
 

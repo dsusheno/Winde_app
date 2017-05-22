@@ -7,14 +7,15 @@ import {
   PixelRatio,
   Button
 } from 'react-native';
+import Map from '../components/Map'
 
-class BaladeMapScreen extends Component {
-    render (){
+class BaladeMapScreen extends Component
+{
+    render ()
+    {
         return (
-            <View>
-            <Text style={{color: 'black'}}>{this.props.navigation.state.params.title}</Text>
-            </View>
-        )
+          <Map markers={this.props.navigation.state.params.markers}/>
+        );
     }
 }
 
