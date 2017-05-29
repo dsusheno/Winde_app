@@ -11,6 +11,9 @@ import Map from '../components/Map'
 
 class BaladeMapScreen extends Component
 {
+    static navigationOptions = {
+        
+    }
     render ()
     {
         return (

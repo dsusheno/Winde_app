@@ -4,8 +4,6 @@ import {
   Text,
   ActivityIndicator,
   StatusBar,
-  Image,
-  View,
   PixelRatio,
   TouchableOpacity,
   TouchableHighlight,
@@ -16,7 +14,7 @@ import { NavigationActions } from 'react-navigation';
 
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
-import { ListView, Screen, Tile, Title, Subtitle, Divider } from '@shoutem/ui';
+import { ListView, Screen, Tile, Title, Subtitle, Divider, Image, View } from '@shoutem/ui';
 import Stars from 'react-native-stars';
 
 class ListBalades extends Component {
@@ -36,23 +34,23 @@ class ListBalades extends Component {
                 source={ {uri: balade.image} }
                 style={{height: this.state.imageHeight}}
               >
-                <Title>{balade.title}</Title>
-                <View style={{alignItems:'flex-start'}}>
-                  <Stars
-                    value={balade.rating}
-                    spacing={5}
-                    count={5}
-                    starSize={24}
-                    backingColor='transparent'
-                    fullStar={require('../img/icons/star_white.png')}
-                    emptyStar={require('../img/icons/star_border_white.png')}
-                    halfStar={require('../img/icons/star_half_white.png')}
-                  />
-                </View>
-              </Image>
-              </TouchableHighlight>
-              <View style={{height: 7}}></View>
-              </View>
+              <Tile>
+                <Title styleName="md-gutter-bottom">{balade.title}</Title>
+                <Stars
+                value={balade.rating}
+                spacing={5}
+                count={5}
+                starSize={24}
+                backingColor='transparent'
+                fullStar={require('../img/icons/star_white.png')}
+                emptyStar={require('../img/icons/star_border_white.png')}
+                halfStar={require('../img/icons/star_half_white.png')}
+                />
+            </Tile>
+            </Image>
+            </TouchableHighlight>
+            <View style={{height: 7}}></View>
+            </View>
           );
       };
 

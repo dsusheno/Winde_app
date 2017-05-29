@@ -21,8 +21,8 @@ export const HomeTabs = TabNavigator({
         navigationOptions: {
             tabBarLabel: 'Nouveau',
             headerTitle: 'Accueil',
-            headerLeft: <Text>Popo</Text>,
-            headerRight: <Text>lollolololo</Text>,
+            headerLeft: <Text></Text>,
+            headerRight: <Text></Text>,
       }
   },
     Near: {
@@ -30,8 +30,8 @@ export const HomeTabs = TabNavigator({
         navigationOptions: {
             tabBarLabel: 'À proximité',
             headerTitle: 'Accueil',
-            headerLeft: <Text>Popo</Text>,
-            headerRight: <Text>lollolololo</Text>,
+            headerLeft: <Text></Text>,
+            headerRight: <Text></Text>,
         }
     }
 },
