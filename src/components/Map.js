@@ -8,7 +8,8 @@ import {
   TouchableWithoutFeedback,
   Dimensions,
   Animated,
-  Easing
+  Easing,
+  Image
 } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import { decode, encode } from 'rn-maps-polyline';
@@ -244,8 +245,10 @@ class Map extends Component
 
   _getDescriptionView()
   {
-    const description = this.state.markers[this.state.selectedMarkerIndex].description;
-    const title = this.state.markers[this.state.selectedMarkerIndex].title;
+    const marker = this.state.markers[this.state.selectedMarkerIndex]
+    console.log(marker.pictures);
+    const description = marker.description;
+    const title = marker.title;
 
     const descriptionViewOpacity = this.state.descriptionViewHeight.interpolate({
       inputRange: [descriptionViewHeight, Dimensions.get("window").height],
@@ -257,7 +260,10 @@ class Map extends Component
       return (
         <TouchableWithoutFeedback onPress={this._onDescriptionViewPress}>
           <Animated.View style={[styles.descriptionView, {height: this.state.descriptionViewHeight, opacity: descriptionViewOpacity}]}>
-            <Animated.View style={[styles.descriptionPicture, {opacity: this.state.descriptionContentOpacity}]} />
+            <Animated.Image
+              source={ {uri: marker.pictures[0]} }
+              style={[styles.descriptionPicture, {opacity: this.state.descriptionContentOpacity}]}
+            />
             <Animated.Text style={[styles.descriptionTitle, {opacity: this.state.descriptionContentOpacity}]}>{title}</Animated.Text>
           </Animated.View>
         </TouchableWithoutFeedback>
@@ -272,7 +278,11 @@ class Map extends Component
     return (
       <Animated.View style={{height: this.state.descriptionViewHeight, opacity: descriptionViewOpacity}}>
         <ScrollView style={styles.extendedDescriptionView} contentContainerStyle={{alignItems: 'center'}}>
-          <Animated.View style={[styles.extendedDescriptionViewPicture, {opacity: this.state.extendedDescriptionViewPictureOpacity}]} />
+          <Animated.View style={{height: 100}}/>
+          <Animated.Image
+            source={ {uri: marker.pictures[0]} }
+            style={[styles.extendedDescriptionViewPicture, {opacity: this.state.extendedDescriptionViewPictureOpacity}]}
+          />
           <Animated.Text style={[styles.extendedDescriptionViewTitle, {opacity: this.state.extendedDescriptionViewTitleOpacity}]}>{this.state.markers[this.state.selectedMarkerIndex].title}</Animated.Text>
           <Animated.Text style={[styles.extendedDescriptionViewDesc, {opacity: this.state.extendedDescriptionViewDescOpacity}]}>{this.state.markers[this.state.selectedMarkerIndex].description}</Animated.Text>
         </ScrollView>
@@ -295,7 +305,6 @@ class Map extends Component
 
   render() {
 
-    console.log(this.state.polylineCoords);
     if (this.state.polylineCoords === undefined)
     {
       return (<Text style={{marginTop: 64}}>Loading</Text>);
@@ -360,7 +369,7 @@ const styles = StyleSheet.create({
   descriptionPicture: {
     height: descriptionPictureHeightRatio + '%',
     width: descriptionPictureWidthRatio + '%',
-    backgroundColor: 'black',
+    backgroundColor: 'black'
   },
   descriptionTitle: {
     height: '100%',
